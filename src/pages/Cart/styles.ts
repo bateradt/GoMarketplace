@@ -18,6 +18,11 @@ export const ProductList = styled(FlatList)`
   padding: 0 10px;
 `;
 
+export const ProductImage = styled.Image`
+  height: 92px;
+  width: 92px;
+`;
+
 export const Product = styled.View`
   background: #fff;
   padding: 15px 10px;
@@ -26,18 +31,16 @@ export const Product = styled.View`
   flex-direction: row;
 `;
 
-export const ProductImage = styled.Image`
-  height: 92px;
-  width: 92px;
-`;
-
 export const ProductTitleContainer = styled.View`
   font-size: 16px;
   margin-left: 5px;
+  flex-shrink: 1;
+  /* quebrar a linha do texto coloque esse código acima */
 `;
 
 export const ProductTitle = styled.Text`
   font-size: 16px;
+  flex-wrap: wrap;
 `;
 
 export const ProductPriceContainer = styled.View`
@@ -112,4 +115,14 @@ export const SubtotalValue = styled.Text`
   font-size: 16px;
   color: #fff;
   font-weight: bold;
+`;
+
+export const CartClear = styled.TouchableOpacity`
+  flex-direction: row;
+  background: #e83f5b;
+
+  flex: 1;
+  padding: 0px 0px;
+  justify-content: flex-end;
+  align-items: flex-end;
 `;

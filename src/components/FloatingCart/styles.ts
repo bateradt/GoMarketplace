@@ -27,7 +27,7 @@ export const CartButton = styled.TouchableOpacity`
   background: #e83f5b;
 
   flex: 1;
-  padding: 20px 20px;
+  padding: 10px 10px;
   justify-content: space-between;
   align-items: center;
 `;

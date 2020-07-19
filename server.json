@@ -1,28 +1,40 @@
 {
   "products": [
     {
-      "id": "123",
-      "title": "Nome do produto 01",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 50
+      "id": "1",
+      "title": "Camisa do Palmeiras",
+      "image_url": "http://www.mediafire.com/convkey/2f78/tg1f95a1ojpx22czg.jpg",
+      "price": 299.99
     },
     {
-      "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 60
+      "id": "2",
+      "title": "Camisa do Real Madrid",
+      "image_url": "http://www.mediafire.com/convkey/952e/usewnbaqty2nr6vzg.jpg",
+      "price": 179.90
     },
     {
-      "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 70
+      "id": "3",
+      "title": "Camisa do Juventus",
+      "image_url": "http://www.mediafire.com/convkey/de11/lqwj5flllbmwm0zzg.jpg",
+      "price": 179.90
     },
     {
-      "id": "123456",
-      "title": "Nome do produto 04",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 80
+      "id": "4",
+      "title": "Camisa do Juventus Fora",
+      "image_url": "http://www.mediafire.com/convkey/96b2/5tulixgdrjplw97zg.jpg",
+      "price": 159.90
+    },
+    {
+      "id": "5",
+      "title": "Camisa do Barcelona",
+      "image_url": "http://www.mediafire.com/convkey/08a0/0bizrckmlq1d73dzg.jpg",
+      "price": 189.90
+    },
+    {
+      "id": "6",
+      "title": "Camisa do Borussia Dortmund",
+      "image_url": "http://www.mediafire.com/convkey/d658/jxi4c879afd7rttzg.jpg",
+      "price": 199.90
     }
   ]
 }

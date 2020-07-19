@@ -1,7 +1,6 @@
-import React, { useState, useMemo } from 'react';
+import React, { useMemo } from 'react';
 
 import { useNavigation } from '@react-navigation/native';
-
 import FeatherIcon from 'react-native-vector-icons/Feather';
 import {
   Container,
@@ -25,14 +24,23 @@ const FloatingCart: React.FC = () => {
 
   const cartTotal = useMemo(() => {
     // TODO RETURN THE SUM OF THE PRICE FROM ALL ITEMS IN THE CART
+    const sumPrice = products.reduce((accumulator, product) => {
+      const totalProduto = product.price * product.quantity;
+      return accumulator + totalProduto;
+    }, 0);
 
-    return formatValue(0);
+    return formatValue(sumPrice);
   }, [products]);
 
   const totalItensInCart = useMemo(() => {
     // TODO RETURN THE SUM OF THE QUANTITY OF THE PRODUCTS IN THE CART
+    const totalItens = products.reduce((accumulator, product) => {
+      const { quantity } = product;
 
-    return 0;
+      return accumulator + quantity;
+    }, 0);
+
+    return totalItens;
   }, [products]);
 
   return (
